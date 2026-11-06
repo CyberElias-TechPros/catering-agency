@@ -57,7 +57,7 @@ function App() {
       </section>
       <div className="ticker" aria-label="Food tastes better together"><div className="ticker-track">{Array.from({length:4},(_,i)=><span key={i}>FOOD TASTES BETTER TOGETHER <b>✳</b> EVERY OCCASION DESERVES A LITTLE EXTRA <b>✳</b></span>)}</div></div>
       <section id="story" className="story section-pad">
-        <div className="story-side reveal"><span className="section-kicker">A LITTLE ABOUT US <span>↗</span></span><div className="story-mark">N.P.<span>✳</span></div><p>GOOD FOOD, <br/>MADE WITH LOVE</p></div>
+        <div className="story-side reveal"><span className="section-kicker">A LITTLE ABOUT US <span>↗</span></span><figure className="founder-portrait"><img src="/images/founder.png" alt="The woman behind Neomy’s Pot in a catering kitchen" loading="lazy"/><figcaption>THE HEART BEHIND THE POT <span>✳</span></figcaption></figure></div>
         <div className="story-main reveal"><span className="eyebrow"><span className="line"></span> PULL UP A CHAIR</span><h2>More than a meal.<br/><em>It’s a feeling.</em></h2><div className="story-text"><p>You know that feeling when the food is just right, the music is playing, and you’re surrounded by your favourite people? That’s what we do.</p><p>At Neomy’s Pot, we believe food is our love language. Inspired by the richness of Nigerian culture, we create generous, joy-filled experiences that bring everyone a little closer.</p><a href="#services" className="under-link">A SEAT AT OUR TABLE <ArrowUpRight size={16}/></a></div></div>
       </section>
       <section id="services" className="services section-pad">
